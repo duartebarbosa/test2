@@ -70,4 +70,7 @@
   }
 
   // Your custom JavaScript goes here
+  var email = document.getElementById('email');
+  email.href = email.href.replace(/domain/,'ist.utl');
+  email.innerText = email.href.substring(7);
 })();
